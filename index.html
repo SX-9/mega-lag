@@ -1,12 +1,1 @@
-<!DOCTYPE html>
-<html>
-  <script>
-    var link = "index.html";
-    function lag() {
-      window.open("index.html");
-      window.open(link);
-      lag();
-    }
-    lag();
-  </script>
-</html>
+<script>let lag = () => {open("index.html");lag();}lag();</script>
