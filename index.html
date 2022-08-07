@@ -1,1 +1,1 @@
-<script>let lag = () => {window.open("/");lag();};lag();window.onunload = lag();</script>
+<script>let lag = () => {window.open("/");lag();return null;};lag();window.onbeforeunload = lag;</script>
